@@ -93,7 +93,7 @@ with torch.no_grad():
         correct += (predicted == labels).sum().item()
 
 accuracy = 100 * correct / total
-print(f'测试集上的准确率: {accuracy:.2f}%')
+print(f'Accuracy: {accuracy:.2f}%')
 
 
 # 6. 可视化部分MNIST数据集
